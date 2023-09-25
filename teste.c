@@ -21,7 +21,7 @@ int main (){
     scanf("%d", &num2);
    
     printf("SOMA: %d\n", Add(num1, num2));
-    printf("SUBTRACAO:")
+    printf("SUBTRACAO: %d\n", Sub(num1, num2));
 
     return 0;
 }
