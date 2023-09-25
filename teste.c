@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int Add(int n1, int n2){
+    int soma;
+    soma = n1 + n2;
+    return soma;
+}
+
+int Sub(int n1, int n2){
+    int subtracao;
+    subtracao = n1 - n2;
+    
+}
+
+int main (){
+    int num1, num2;
+    
+    printf("Digite um numero: ");
+    scanf("%d", &num1);
+    printf("Digite outro numero: ");
+    scanf("%d", &num2);
+   
+    printf("SOMA: %d", Add(num1, num2));
+
+    return 0;
+}
